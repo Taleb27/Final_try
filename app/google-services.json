@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "345251997081",
+    "firebase_url": "https://taleb-f4936-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "taleb-f4936",
+    "storage_bucket": "taleb-f4936.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345251997081:android:e0523fc5033b58e235df08",
+        "android_client_info": {
+          "package_name": "y2022.aoc.taleb.final_try"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345251997081-ppj5slolngd1iqaga5iouuual7mvl4ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_JDiTmz6dEyZlriP_ZmPr5L-BxjFscC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345251997081-ppj5slolngd1iqaga5iouuual7mvl4ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
