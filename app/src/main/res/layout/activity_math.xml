@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="y2022.aoc.taleb.final_try.MathActivity">
+    tools:context="y2022.aoc.taleb.final_try.mathActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

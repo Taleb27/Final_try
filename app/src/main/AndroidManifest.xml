@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Final_try">
+        <activity android:name=".MainActivity"
+            android:exported="false"/>
+
         <activity
             android:name=".PageActivity"
             android:exported="false" />
@@ -25,7 +28,7 @@
             android:name=".Sign_Activity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".GuessActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -11,10 +11,11 @@
 
 
     <Button
-        android:id="@+id/Btnguess"
+        android:id="@+id/buttonGuess"
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:layout_weight="0"
+        android:onClick="guess"
         android:layout_margin="10dp"
         android:text="guess game" />
 

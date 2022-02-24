@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Sign_Activity"
     android:orientation="vertical"
-    android:background="@drawable/background"
+    android:background="@drawable/black1n1white"
     android:gravity="center"
 
 
