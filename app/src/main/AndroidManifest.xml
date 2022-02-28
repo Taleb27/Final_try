@@ -29,6 +29,9 @@
             android:exported="false" />
         <activity
             android:name=".GuessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".higherlowerActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
