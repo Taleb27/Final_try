@@ -28,7 +28,7 @@
             android:name=".Sign_Activity"
             android:exported="false" />
         <activity
-            android:name=".GuessActivity"
+            android:name=".tictoeActivity"
             android:exported="false" />
         <activity
             android:name=".higherlowerActivity"

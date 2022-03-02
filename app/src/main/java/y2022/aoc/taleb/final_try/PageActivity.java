@@ -27,7 +27,7 @@ public class PageActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private void GuessActivity() {
-        Intent intent= new Intent(PageActivity.this, GuessActivity.class);
+        Intent intent= new Intent(PageActivity.this, tictoeActivity.class);
         startActivity(intent);
     }
 }
