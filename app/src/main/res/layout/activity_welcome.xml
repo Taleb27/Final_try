@@ -7,7 +7,7 @@
     android:hapticFeedbackEnabled="false"
     android:orientation="vertical"
     tools:context=".WelcomeActivity"
-    android:background="@drawable/background"
+    android:background="@drawable/pint"
     android:gravity="center">
 
 
@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:allowUndo="true"
+        android:textColor="@color/white"
         android:gravity="center"
         android:text="welcome"
         android:textSize="36dp"
@@ -24,7 +25,8 @@
 
     <Button
         android:id="@+id/camera"
-
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:onClick="camera"

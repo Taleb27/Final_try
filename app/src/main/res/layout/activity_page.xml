@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".PageActivity"
     android:orientation="vertical"
-    android:background="@drawable/background"
+    android:background="@drawable/pint"
     android:gravity="center">
 
 
@@ -15,9 +15,11 @@
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:layout_weight="0"
-        android:onClick="guess"
+        android:onClick="onClick"
         android:layout_margin="10dp"
-        android:text="guess game" />
+        android:text="Tic tac toe"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
 
     <Button
         android:id="@+id/BtnMath"
@@ -25,32 +27,11 @@
         android:layout_height="68dp"
         android:layout_margin="10dp"
         android:layout_weight="0"
-        android:text="Math game" />
-
-    <Button
-        android:id="@+id/BtnSettings"
-        android:layout_width="match_parent"
-        android:layout_margin="10dp"
-        android:layout_height="68dp"
-        android:layout_weight="0"
         android:onClick="onClick"
-        android:text="Settings" />
+        android:text="Higher and lower"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
 
-    <Button
-        android:id="@+id/BtnAbout"
-        android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:layout_margin="10dp"
-        android:layout_weight="0"
-        android:onClick="onClick"
-        android:text="About" />
 
-    <Button
-        android:id="@+id/BtnExit"
-        android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:layout_margin="10dp"
-        android:layout_weight="0"
-        android:onClick="onClick"
-        android:text="Exit" />
+
 </LinearLayout>

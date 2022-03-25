@@ -45,7 +45,8 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
         startService(musicIntent);
 
 
-
+        Intent i = new Intent(this, NotificationIntentService.class);
+        startService(i);
 
         SharedPreferences Settings = getSharedPreferences("Settings",MODE_PRIVATE);
         String email = Settings.getString("editTextemail", "");

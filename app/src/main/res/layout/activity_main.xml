@@ -5,33 +5,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/pint"
     tools:context=".MainActivity"
-    android:background="@drawable/black1n1white"
+
     android:layout_gravity="center"
     >
 
 
     <EditText
         android:id="@+id/editTextEmail"
+        android:layout_marginTop="50dp"
         android:layout_width="300dp"
         android:layout_height="50dp"
+
         android:layout_gravity="center"
         android:layout_weight="0"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center"
         android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
         android:hint="email"
+        android:textColorHint="@color/white"
         />
 
 
     <EditText
 
         android:id="@+id/editTextPassword"
+        android:layout_marginTop="15dp"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_weight="0"
         android:autofillHints=""
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
         android:ems="10"
         android:inputType="textPassword"
         android:layout_gravity="center"
@@ -48,6 +58,8 @@
         android:layout_gravity="center"
         android:layout_margin="30dp"
         android:onClick="login"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         android:text="login"
         tools:text="Login" />
 
@@ -59,6 +71,8 @@
         android:layout_margin="30dp"
         android:onClick="sign"
         android:text="sign up"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         tools:text="Sign up" />
 
 

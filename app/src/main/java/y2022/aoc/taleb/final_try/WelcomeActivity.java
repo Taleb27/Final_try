@@ -41,7 +41,8 @@ public class WelcomeActivity extends AppCompatActivity implements DialogInterfac
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_settings:
-                Toast.makeText(this, "settings", Toast.LENGTH_LONG).show();
+                Intent intent= new Intent(WelcomeActivity.this,SettingActivity.class);
+                startActivity(intent);
                 break;
             case R.id.extmenu:
 

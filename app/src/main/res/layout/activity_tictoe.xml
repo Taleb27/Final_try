@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/pint"
     android:layout_height="match_parent"
     tools:context="y2022.aoc.taleb.final_try.tictoeActivity"
     android:orientation="vertical"
@@ -12,6 +13,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Player one"
+    android:textColor="@color/white"
     android:layout_marginTop="5dp"
     android:layout_marginLeft="15dp"
     android:textSize="20sp"
@@ -20,6 +22,7 @@
     />
     <TextView
        android:id="@+id/playeronescore"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
@@ -31,6 +34,7 @@
         />
     <TextView
         android:id="@+id/playertwo"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Player two"
@@ -43,6 +47,7 @@
         />
     <TextView
         android:id="@+id/playertwoscore"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
@@ -54,6 +59,7 @@
         />
     <TextView
       android:id="@+id/playerStatus"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
@@ -189,13 +195,15 @@
     android:layout_width="match_parent"
     android:layout_height="60dp"
     android:text="Rest Game "
-    android:textColor="@color/white"
-    android:backgroundTint="#E1470D"
+    android:textColor="@color/black"
+    android:backgroundTint="@color/white"
     android:textSize="20sp"
     android:textStyle="bold"
     app:layout_constraintTop_toBottomOf="@+id/btn_6"
     app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintLeft_toRightOf="parent"
+    android:textAllCaps="false"
+
     />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

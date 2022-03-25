@@ -18,7 +18,7 @@ public class MusicService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        mediaPlayer = MediaPlayer.create(this,R.raw.supermariobros);
+        mediaPlayer = MediaPlayer.create(this,R.raw.thetaleofnarutouzumaki);
         mediaPlayer.setLooping(true);
         mediaPlayer.setVolume(100,100);
 
@@ -32,6 +32,7 @@ public class MusicService extends Service {
 
     @Override
     public void onDestroy() {
+        super.onDestroy();
         mediaPlayer.stop();
 
     }

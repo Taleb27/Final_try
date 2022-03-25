@@ -4,14 +4,12 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-//this is the broadcast receiver class.
-class NotificationReceiver extends BroadcastReceiver {
-    //    public MyReceiver() {
-    // }
+public class NotificationReceiver extends BroadcastReceiver {
+    //this class is initiated a broadcast from the Operating System
     @Override
     public void onReceive(Context context, Intent intent) {
-
         Intent intent1 = new Intent(context, NotificationIntentService.class);
         context.startService(intent1);
+
     }
 }
